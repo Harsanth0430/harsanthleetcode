@@ -1,4 +1,4 @@
-// Last updated: 13/03/2026, 20:33:34
+// Last updated: 13/03/2026, 20:34:17
 1class Solution {
 2    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 3        double med=0;
@@ -13,7 +13,7 @@
 12        }
 13        Arrays.sort(arr);
 14        if(l%2==0){
-15              double ans=(arr[(l/2)]+arr[(l/2)-1])/2.0;
+15              double ans=(double)(arr[(l/2)]+arr[(l/2)-1])/2;
 16            return ans;
 17        }
 18        else{
